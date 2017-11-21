@@ -5,10 +5,13 @@
 # end
 
 # Make sure each ruby method returns a string containing a valid SQL statement.
+Find project by id
+Find project title w/ pledges id
+
 
 def selects_the_titles_of_all_projects_and_their_pledge_amounts_alphabetized_by_name
 "SELECT title, amount FROM projects
-INNER JOIN pledges ON projects.id = pledges.project_id
+INNER JOIN pledges ON pledges.project_id = projects.id
 ORDER BY title;"
 end
 
