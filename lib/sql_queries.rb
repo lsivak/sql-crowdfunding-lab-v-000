@@ -5,8 +5,8 @@
 # end
 
 # Make sure each ruby method returns a string containing a valid SQL statement.
-Find project by id
-Find project title w/ pledges id
+# Find project by id
+# Find project title w/ pledges id
 
 
 def selects_the_titles_of_all_projects_and_their_pledge_amounts_alphabetized_by_name
